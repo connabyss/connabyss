@@ -1,6 +1,9 @@
 ## CH
 
-I make games, and tools that keep AI-written code honest.
+I build Bite, a referee for AI coding agents. It checks whether “done” really means done.
 
-- 🎮 A 2D indie game is in the works. Name reveal soon.
-- 🐛 Bug hunting with AI tools: the maintainer fixed all 4 bugs in my srptools report ([#13](https://github.com/idlesign/srptools/issues/13)) the same day.
+  🔧 7 bug fixes merged into pyclibrary (#93–#99)
+
+  🐛 Found a memory leak in prosemirror-py that a commit said was fixed (#335, fix in #336)
+
+  ✅ All 4 bugs in my srptools report (#13) fixed by the maintainer the same day

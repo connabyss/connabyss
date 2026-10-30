@@ -1,18 +1,19 @@
 ## CH
 
-I build [Bite](https://github.com/connabyss/bite), a referee for AI coding agents. It checks whether “done” really means done. The code is public, and `bite --free` runs without a key. New in v0.2.0: it runs as a free check on every pull request ([GitHub Marketplace](https://github.com/marketplace/actions/bite-free-check)).
+I build [Bite](https://github.com/connabyss/bite), a referee for AI coding agents. It checks whether “done” really means done. The code is public, and `bite --free` runs without a key. It also runs as a free check on every pull request ([GitHub Marketplace](https://github.com/marketplace/actions/bite-free-check)).
 
 ### Recent bug fixes
 
 - 🧭 **west** (Zephyr's command-line tool): loading a manifest with a reserved project name crashed. My fix was approved by two maintainers and merged ([#1013](https://github.com/zephyrproject-rtos/west/pull/1013)).
 - 📡 **midea-lan**: a message encoder got the frame length wrong when no padding was needed. Fix merged ([#251](https://github.com/wuwentao/midea-lan/pull/251)); the owner thanked me "for finding and fixing the 8370 framing bug".
+- 📊 **mizani** (number labels for plotnine charts): labels picked too few decimals when values were close together, so `10` and `10.5` both showed as `10`. Fix merged ([#90](https://github.com/has2k1/mizani/pull/90)).
 - 🐛 **prosemirror-py**: a commit said a memory leak was fixed. Bite caught that it wasn't. I reported it ([#335](https://github.com/fellowapp/prosemirror-py/issues/335)) and sent a fix ([#336](https://github.com/fellowapp/prosemirror-py/pull/336)), which is waiting on review.
-- 🔧 **pyclibrary**: 8 PRs merged ([#93–#99](https://github.com/MatthieuDartiailh/pyclibrary/pulls?q=is%3Apr+author%3Aconnabyss), [#101](https://github.com/MatthieuDartiailh/pyclibrary/pull/101)). The owner called them "small and focused".
+- 🔧 **pyclibrary**: 9 PRs merged ([#93–#101](https://github.com/MatthieuDartiailh/pyclibrary/pulls?q=is%3Apr+author%3Aconnabyss)), the newest fixing an enum bug from 2021 ([#58](https://github.com/MatthieuDartiailh/pyclibrary/issues/58)). The owner called them "small and focused".
 - 🎨 **django-tailwind-cli**: fixed the watcher's output ([#232](https://github.com/django-commons/django-tailwind-cli/pull/232)). Merged and shipped in 4.8.2.
 - 📐 **text-to-cad**: its Python 3.11 check missed a line that breaks on real 3.11. Fixed ([#708](https://github.com/earthtojake/text-to-cad/pull/708)). Merged and shipped in 0.8.2.
 - ✅ **srptools**: all 4 bugs in my report ([#13](https://github.com/idlesign/srptools/issues/13)) fixed by the maintainer the same day.
 
-Open now: [17 PRs waiting on review](https://github.com/search?q=author%3Aconnabyss+is%3Apr+is%3Aopen+-user%3Aconnabyss&type=pullrequests), including [llm #1828](https://github.com/simonw/llm/pull/1828), [pyclibrary #100](https://github.com/MatthieuDartiailh/pyclibrary/pull/100), and [modeltranslation #831](https://github.com/deschler/django-modeltranslation/pull/831) and [#832](https://github.com/deschler/django-modeltranslation/pull/832). Reported, no reply yet: [ChatSBOM #217](https://github.com/WangYihang/ChatSBOM/issues/217).
+Open now: [15 PRs waiting on review](https://github.com/search?q=author%3Aconnabyss+is%3Apr+is%3Aopen+-user%3Aconnabyss&type=pullrequests), including [llm #1828](https://github.com/simonw/llm/pull/1828), [modeltranslation #831](https://github.com/deschler/django-modeltranslation/pull/831) and [#832](https://github.com/deschler/django-modeltranslation/pull/832). Reported, no reply yet: [ChatSBOM #217](https://github.com/WangYihang/ChatSBOM/issues/217).
 
 ✍️ Writing: [What I learned fixing bugs in other people's code](https://dev.to/connabyss/what-i-learned-fixing-bugs-in-other-peoples-code-4nch)
 

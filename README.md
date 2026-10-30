@@ -1,6 +1,6 @@
 ## CH
 
-I build [Bite](https://github.com/connabyss/bite), a referee for AI coding agents. It checks whether “done” really means done. The code is now public, and `bite --free` runs without a key.
+I build [Bite](https://github.com/connabyss/bite), a referee for AI coding agents. It checks whether “done” really means done. The code is public, and `bite --free` runs without a key. New in v0.2.0: it runs as a free check on every pull request ([GitHub Marketplace](https://github.com/marketplace/actions/bite-free-check)).
 
 ### Recent bug fixes
 

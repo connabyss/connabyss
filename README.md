@@ -1,9 +1,12 @@
 ## CH
 
-I build [Bite](https://github.com/connabyss/bite), a tool that checks whether a "fixed" commit is really fixed. It takes the fix back out and runs your tests. Bite 1.0 is out: `pipx install bite-check`.
+I build [Bite](https://github.com/connabyss/bite), a tool that checks whether a "fixed" commit is really fixed. It takes the fix back out and runs your tests. Get the latest Bite: `pipx install bite-check`.
 
 Some fixes I've had merged upstream:
 
+- **prosemirror-py**: a memory leak a commit said was fixed but wasn't ([#336](https://github.com/fellowapp/prosemirror-py/pull/336)), and a shared-list bug ([#337](https://github.com/fellowapp/prosemirror-py/pull/337))
+- **h2** (Python's HTTP/2 library): test for duplicate Host headers the check missed ([#1343](https://github.com/python-hyper/h2/pull/1343))
+- **Tencent teamai-cli**: secrets leaking through tool arguments ([#1669](https://github.com/Tencent/teamai-cli/pull/1669), [#1671](https://github.com/Tencent/teamai-cli/pull/1671))
 - **west** (Zephyr's command-line tool): crash on a reserved project name ([#1013](https://github.com/zephyrproject-rtos/west/pull/1013))
 - **kin-openapi**: tests for deepObject array index limits ([#1412](https://github.com/getkin/kin-openapi/pull/1412))
 - **midea-lan**: wrong frame length in the 8370 message encoder ([#251](https://github.com/wuwentao/midea-lan/pull/251))

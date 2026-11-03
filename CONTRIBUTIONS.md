@@ -4,6 +4,9 @@ Fixes and tests I've sent to other projects, most found with [Bite](https://gith
 
 ## Merged
 
+- **prosemirror-py**: a commit said a memory leak was fixed, and it wasn't ([#335](https://github.com/fellowapp/prosemirror-py/issues/335)); fixed in [#336](https://github.com/fellowapp/prosemirror-py/pull/336), plus a shared-list bug in `Mapping` ([#337](https://github.com/fellowapp/prosemirror-py/pull/337))
+- **h2** (Python's HTTP/2 library): test for duplicate Host headers the mismatch check misses ([#1343](https://github.com/python-hyper/h2/pull/1343))
+- **Tencent teamai-cli**: secrets in tool arguments leaked into session logs and the judge's transcript ([#1669](https://github.com/Tencent/teamai-cli/pull/1669), [#1671](https://github.com/Tencent/teamai-cli/pull/1671))
 - **west** (Zephyr's command-line tool): crash when a manifest uses a reserved project name ([#1013](https://github.com/zephyrproject-rtos/west/pull/1013))
 - **kin-openapi**: tests for deepObject array index limits ([#1412](https://github.com/getkin/kin-openapi/pull/1412))
 - **mkdocs-htmlproofer-plugin**: tests for `ignore_pages`, `ignore_urls` and `warn_on_ignored_urls` ([#126](https://github.com/manuzhang/mkdocs-htmlproofer-plugin/pull/126))
@@ -22,6 +25,5 @@ Fixes and tests I've sent to other projects, most found with [Bite](https://gith
 
 ## Open
 
-- **prosemirror-py**: a commit said a memory leak was fixed, and it wasn't ([#335](https://github.com/fellowapp/prosemirror-py/issues/335), fix in [#336](https://github.com/fellowapp/prosemirror-py/pull/336))
 - **kin-openapi**: opening a spec with whole-file `$ref`s re-reads the same files over and over ([#1414](https://github.com/getkin/kin-openapi/pull/1414), [#1415](https://github.com/getkin/kin-openapi/pull/1415))
 - [Everything else waiting on review](https://github.com/search?q=author%3Aconnabyss+is%3Apr+is%3Aopen+-user%3Aconnabyss&type=pullrequests)

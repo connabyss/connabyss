@@ -2,7 +2,7 @@
 
 I make strange games and I hunt bugs. About half and half.
 
-**Games.** Absurd, a little creepy, played straight. Right now I'm making *Softbox*, a game jam entry about something that lives inside an old computer and wants out. Also finishing a small online game I started for fun. The games I keep going back to: Balatro, RimWorld, RuneScape, Disco Elysium.
+**Games.** Absurd, a little creepy, played straight. Right now I'm making *Unknown Process*, a game jam roguelike where you're a ghost haunting someone's files. Also finishing a small online game I started for fun. The games I keep going back to: Balatro, RimWorld, RuneScape, Disco Elysium.
 
 **Bugs.** My favorite bug is a fix that didn't fix anything. So I built [Bite](https://github.com/connabyss/bite): it takes the fix back out and runs your tests. If they still pass, nothing was checking the fix. `pipx install bite-check`
 

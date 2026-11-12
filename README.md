@@ -14,3 +14,9 @@ A few fixes that got merged upstream:
 - **h2** (Python's HTTP/2 library): test for duplicate Host headers the check missed ([#1343](https://github.com/python-hyper/h2/pull/1343))
 
 [All contributions](CONTRIBUTIONS.md) · [Writing](https://dev.to/connabyss) · [Cold Case Unit](https://connabyss.github.io/cold-case)
+
+### Now making
+
+[![Unknown Process: one scare sets off the next, then the files spell out the score](unknown-process.gif)](https://claude.ai/artifact/9F1638bwzjDckfcpDHseXe)
+
+*Unknown Process*, my entry for the "Ghost in the Machine" game jam. You're the ghost in someone's computer: make their files creepy, let them in, and watch one scare set off the next.

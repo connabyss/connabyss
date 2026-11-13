@@ -80,7 +80,7 @@ Click any picture to play it in your browser.
 
 **Cold Case Unit**: type a GitHub username and get a crime file on every project its owner walked away from.
 
-<a href="https://connabyss.github.io/excuse-court/"><img src="games/excuse-court.png" width="640" alt="Excuse Court: Judge June Burden at her bench, and the verdict card stamped GUILTY, 26 out of 100"></a>
+<a href="https://connabyss.github.io/excuse-court/"><img src="games/excuse-court-v2.png" width="640" alt="Excuse Court: Judge June Burden scowls at her bench, gavel raised, beside a signed ruling stamped GUILTY, 26 out of 100"></a>
 
 **Excuse Court**: type your excuse and Judge June Burden decides if you walk.
 

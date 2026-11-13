@@ -68,14 +68,14 @@ Click any clip to play it in your browser.
 
 **Above Your Pay Grade**: trick an HR bot into leaking the CEO's salary. It falls for every trick. It still can't leak it.
 
-[![Cold Case Unit: a WANTED poster gets stamped PERSON OF INTEREST](games/cold-case.gif)](https://connabyss.github.io/cold-case)
+[![Cold Case Unit: a WANTED poster gets stamped PERSON OF INTEREST](games/cold-case.png)](https://connabyss.github.io/cold-case)
 
 **Cold Case Unit**: type a GitHub username and get a crime file on every project its owner walked away from.
 
 </td>
 <td width="42%" valign="top">
 
-[![Excuse Court: the judge bangs the gavel and stamps GUILTY](games/excuse-court.gif)](https://claude.ai/artifact/UWEjCvMStpDCbx55gt1Lnp)
+[![Excuse Court: the judge bangs the gavel and stamps GUILTY](games/excuse-court.png)](https://claude.ai/artifact/UWEjCvMStpDCbx55gt1Lnp)
 
 **Excuse Court**: type your excuse and Judge Dubious decides if you walk.
 

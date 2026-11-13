@@ -1,0 +1,25 @@
+name: I found the asterisk
+description: You followed all twelve footnotes. Sign the wall.
+title: "I found the asterisk"
+body:
+  - type: markdown
+    attributes:
+      value: "*you made it. leave your name here and it goes on the wall. please don't post the sentence."
+  - type: dropdown
+    id: how
+    attributes:
+      label: How did you get there?
+      options:
+        - On my own
+        - With a little help
+        - Someone told me where to look
+    validations:
+      required: true
+  - type: textarea
+    id: hardest
+    attributes:
+      label: Which footnote took you longest?
+  - type: textarea
+    id: note
+    attributes:
+      label: Anything to say to the asterisk?

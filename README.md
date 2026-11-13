@@ -1,6 +1,13 @@
 <img src="assets/header.svg" alt="CH: strange games and bugs that only pretend to be fixed" width="100%">
 
-I'm a solo dev. I make strange games, and [Bite](https://github.com/connabyss/bite), a tool that checks if a "fixed" bug is really fixed.
+I'm a solo dev<sup>[\*](https://github.com/connabyss/connabyss/blob/main/README.md?plain=1)</sup>. I make strange games, and [Bite](https://github.com/connabyss/bite), a tool that checks if a "fixed" bug is really fixed.
+
+<!--
+*1 he says "I". the build log says otherwise.
+   word 1 of 12: he
+   next: he never reads response headers. i live in them.
+         curl -I https://above-your-pay-grade.connabyss.workers.dev
+-->
 
 <details>
 <summary><b>You found a strange profile. There's a door. Open it?</b></summary>
@@ -100,3 +107,5 @@ AI coding agents love to say "fixed, and I added a test." Bite takes each fix ba
 [prosemirror-py](https://github.com/fellowapp/prosemirror-py/pull/336) (a memory leak a commit said was fixed but wasn't) · [Tencent teamai-cli](https://github.com/Tencent/teamai-cli/pull/1669) (secrets leaking through tool arguments) · [west](https://github.com/zephyrproject-rtos/west/pull/1013) (crash on a reserved project name) · [h2](https://github.com/python-hyper/h2/pull/1343) (duplicate Host headers the check missed)
 
 [All contributions](CONTRIBUTIONS.md) · [Writing](https://dev.to/connabyss)
+
+<p align="right"><img src="assets/asterisk.png" width="18" alt="*"></p>

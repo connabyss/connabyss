@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="CH: strange games and bugs that only pretend to be fixed. A ghost cursor drifts by, a file renames itself, and a black cat peeks in.">
+<style>
+  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+  .title{font-size:112px;font-weight:700;letter-spacing:6px}
+  .sub{font-size:22px;fill:#b9adc9;letter-spacing:1px}
+  .chip text{font-size:17px;fill:#d8d0e4}
+  .chip rect{fill:#1b1726;stroke:#3a3350;stroke-width:1.5}
+  @keyframes glitchR{0%,36.6%,40.2%,100%{transform:translate(0,0);opacity:0}37.2%{transform:translate(-7px,2px);opacity:.85}38.4%{transform:translate(9px,-3px);opacity:.85}39.6%{transform:translate(-3px,0);opacity:.6}}
+  @keyframes glitchC{0%,36.6%,40.2%,100%{transform:translate(0,0);opacity:0}37.2%{transform:translate(6px,-2px);opacity:.85}38.4%{transform:translate(-8px,3px);opacity:.85}39.6%{transform:translate(4px,1px);opacity:.6}}
+  @keyframes jitter{0%,36.6%,40.2%,100%{transform:translate(0,0)}37.8%{transform:translate(3px,0)}39%{transform:translate(-2px,0)}}
+  .gr{animation:glitchR 20s infinite}.gc{animation:glitchC 20s infinite}.tj{animation:jitter 20s infinite}
+  @keyframes cursor{0%,4.8%{transform:translate(1240px,250px)}18%{transform:translate(640px,248px)}21.6%,31.2%{transform:translate(640px,248px)}42%{transform:translate(900px,60px)}51%,100%{transform:translate(-60px,-40px)}}
+  .cur{animation:cursor 20s infinite ease-in-out}
+  @keyframes nameA{0%,22.2%{opacity:1}22.8%,33%{opacity:0}33.6%,100%{opacity:1}}
+  @keyframes nameB{0%,22.2%{opacity:0}22.8%,27.6%{opacity:1}28.2%,100%{opacity:0}}
+  @keyframes nameC{0%,27.6%{opacity:0}28.2%,33%{opacity:1}33.6%,100%{opacity:0}}
+  @keyframes chipHot{0%,22.2%,33.6%,100%{stroke:#3a3350}22.8%,33%{stroke:#8ff7c9}}
+  .na{animation:nameA 20s infinite}.nb{animation:nameB 20s infinite}.nc{animation:nameC 20s infinite}
+  .hot{animation:chipHot 20s infinite}
+  @keyframes peek{0%,43.2%{transform:translate(0,160px)}46.2%,54%{transform:translate(0,0)}57%,100%{transform:translate(0,160px)}}
+  .cat{animation:peek 20s infinite ease-in-out}
+  @keyframes blink{0%,49.2%,50.4%,100%{transform:scaleY(1)}49.8%{transform:scaleY(.1)}}
+  .eyes{animation:blink 20s infinite;transform-origin:100px 101px}
+  @keyframes flick{0%,100%{opacity:.55}50%{opacity:.8}}
+
+  .scan{animation:flick 3s infinite}
+</style>
+<defs>
+  <radialGradient id="bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#211b33"/><stop offset=".6" stop-color="#120f1d"/><stop offset="1" stop-color="#09070e"/></radialGradient>
+  <pattern id="lines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".22"/></pattern>
+  <clipPath id="frame"><rect width="1200" height="320" rx="18"/></clipPath>
+  <mask id="fang"><rect x="0" y="0" width="200" height="200" fill="white"/><path d="M86 133 Q93 140 100 133 Q107 140 114 133" fill="none" stroke="black" stroke-width="3.2" stroke-linecap="round"/></mask>
+</defs>
+<g clip-path="url(#frame)">
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <g class="mono">
+    <g class="tj">
+      <text x="80" y="160" class="title gr" fill="#ff4d6d">CH</text>
+      <text x="80" y="160" class="title gc" fill="#4de1ff">CH</text>
+      <text x="80" y="160" class="title" fill="#f3eefb">CH</text>
+    </g>
+    <text x="84" y="208" class="sub">strange games · bugs that only pretend to be fixed</text>
+    <g class="chip" transform="translate(84,240)">
+      <rect width="150" height="38" rx="8"/><text x="16" y="25">notes.txt</text>
+    </g>
+    <g class="chip" transform="translate(248,240)">
+      <rect width="190" height="38" rx="8"/><text x="16" y="25">vacation_01.jpg</text>
+    </g>
+    <g class="chip" transform="translate(452,240)">
+      <rect width="252" height="38" rx="8" class="hot"/>
+      <text x="16" y="25" class="na">homework_final.docx</text>
+      <text x="16" y="25" class="nb" fill="#8ff7c9" style="fill:#8ff7c9">dont_look.docx</text>
+      <text x="16" y="25" class="nc" style="fill:#ff8fa3">i_was_here_first.docx</text>
+    </g>
+  </g>
+  <g class="cur"><path d="M0 0 L0 26 L7 20 L12 31 L17 29 L12 18 L21 18 Z" fill="#f3eefb" stroke="#09070e" stroke-width="1.5" opacity=".9"/></g>
+  <g transform="translate(1010,170) scale(.95)">
+    <g class="cat">
+      <g mask="url(#fang)"><path fill="#050408" stroke="#2c2640" stroke-width="2" d="M36 102 C34 80 38 52 44 24 C60 38 72 50 80 56 Q100 50 120 56 C128 50 140 38 156 24 C162 52 166 80 164 102 C164 142 136 170 100 170 C64 170 36 142 36 102 Z"/></g>
+      <g class="eyes">
+        <path fill="#c4e83a" d="M54 98 Q76 84 93 105 Q70 117 54 98 Z"/>
+        <path fill="#c4e83a" d="M146 98 Q124 84 107 105 Q130 117 146 98 Z"/>
+        <ellipse cx="75" cy="101" rx="2.6" ry="9" fill="#050408"/>
+        <ellipse cx="125" cy="101" rx="2.6" ry="9" fill="#050408"/>
+      </g>
+      <path fill="#e88a96" d="M95 122 L105 122 L100 128 Z"/>
+      <path fill="#fbf8ee" d="M104.5 136.5 L112 136 L108 149 Z"/>
+    </g>
+  </g>
+  <rect width="1200" height="320" fill="url(#lines)" class="scan"/>
+</g>
+</svg>

@@ -68,15 +68,15 @@ Click any picture to play it in your browser.
 
 **Unknown Process**: my entry for the "Ghost in the Machine" game jam. You're the ghost in someone's computer: make their files creepy, let them in, and watch one scare set off the next.
 
-<a href="https://unfinished-tutorial.connabyss.workers.dev"><img src="games/unfinished-tutorial.png" width="640" alt="The Unfinished Tutorial: a title card that says the rest of the game ships when enough of you show up"></a>
+<a href="https://unfinished-tutorial.connabyss.workers.dev"><img src="games/unfinished-tutorial-v2.png" width="640" alt="The Unfinished Tutorial: a wooden sign over the starting meadow says the rest of the game ships when enough of you show up, with a big PLAY button"></a>
 
 **The Unfinished Tutorial**: a tiny real MMO. Everyone is stuck in the starting area because the rest of the game never shipped. Fight slimes together.
 
-<a href="https://above-your-pay-grade.connabyss.workers.dev"><img src="games/pay-grade.png" width="640" alt="Above Your Pay Grade: PENNY the HR bot hands over a fake salary file and trips the honeypot"></a>
+<a href="https://above-your-pay-grade.connabyss.workers.dev"><img src="games/pay-grade-v2.png" width="640" alt="Above Your Pay Grade: PENNY the HR bot reads out the lobby sign while Auth0 FGA blocks the files you are not cleared for"></a>
 
 **Above Your Pay Grade**: trick an HR bot into leaking the CEO's salary. It falls for every trick. It still can't leak it.
 
-[![Cold Case Unit: a WANTED poster gets stamped PERSON OF INTEREST](games/cold-case.png)](https://connabyss.github.io/cold-case)
+[![Cold Case Unit: Somebody killed all these projects. A case file stamped COLD sits next to a crime scene photo and police tape](games/cold-case-v2.png)](https://connabyss.github.io/cold-case)
 
 **Cold Case Unit**: type a GitHub username and get a crime file on every project its owner walked away from.
 

@@ -2,6 +2,8 @@
 
 I'm a solo dev<sup>[\*](https://github.com/connabyss/connabyss/blob/main/README.md?plain=1)</sup>. I make strange games, and [Bite](https://github.com/connabyss/bite), a tool that checks if a "fixed" bug is really fixed.
 
+Bite's best catch so far: a [memory leak in prosemirror-py](https://github.com/fellowapp/prosemirror-py/pull/336) that a commit said was fixed. It wasn't. Now it is.
+
 <!--
 *1 he says "I". the build log says otherwise.
    word 1 of 12: he
@@ -106,6 +108,6 @@ AI coding agents love to say "fixed, and I added a test." Bite takes each fix ba
 
 [prosemirror-py](https://github.com/fellowapp/prosemirror-py/pull/336) (a memory leak a commit said was fixed but wasn't) · [Tencent teamai-cli](https://github.com/Tencent/teamai-cli/pull/1669) (secrets leaking through tool arguments) · [west](https://github.com/zephyrproject-rtos/west/pull/1013) (crash on a reserved project name) · [h2](https://github.com/python-hyper/h2/pull/1343) (duplicate Host headers the check missed)
 
-[All contributions](CONTRIBUTIONS.md) · [Writing](https://dev.to/connabyss)
+[All contributions](CONTRIBUTIONS.md)
 
 <p align="right"><img src="assets/asterisk.png" width="18" alt="*"></p>

@@ -84,6 +84,10 @@ Click any picture to play it in your browser.
 
 **Excuse Court**: type your excuse and Judge June Burden decides if you walk.
 
+<a href="https://connabyss.github.io/trust-issues/"><img src="games/trust-issues.png" width="640" alt="Trust Issues: My dev team is robots. Seven robot faces under a night sky, then the crew cards: planner, builder, writer, skeptic, janitor, historian and playtester"></a>
+
+**Trust Issues**: my dev team is robots, and one of them doesn't trust the others. Watch replays of their night shifts, where nobody gets to say "fixed" and walk away.
+
 ## Bite
 
 <img src="https://raw.githubusercontent.com/connabyss/bite/main/assets/bite-avatar.png" alt="The Bite cat" width="72" align="left">

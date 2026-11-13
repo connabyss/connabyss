@@ -1,4 +1,0 @@
-*9 git blame shows one name. blame isn't the whole story.
-   word 9 of 12: every
-   next: python -c "import bite_check; print(bite_check.__credits__)"
-         (pip install bite-check first, or just read bite_check.py on github.com/connabyss/bite)

@@ -5,23 +5,24 @@
   .sub{font-size:22px;fill:#b9adc9;letter-spacing:1px}
   .chip text{font-size:17px;fill:#d8d0e4}
   .chip rect{fill:#1b1726;stroke:#3a3350;stroke-width:1.5}
-  @keyframes glitchR{0%,61%,67%,100%{transform:translate(0,0);opacity:0}62%{transform:translate(-7px,2px);opacity:.85}64%{transform:translate(9px,-3px);opacity:.85}66%{transform:translate(-3px,0);opacity:.6}}
-  @keyframes glitchC{0%,61%,67%,100%{transform:translate(0,0);opacity:0}62%{transform:translate(6px,-2px);opacity:.85}64%{transform:translate(-8px,3px);opacity:.85}66%{transform:translate(4px,1px);opacity:.6}}
-  @keyframes jitter{0%,61%,67%,100%{transform:translate(0,0)}63%{transform:translate(3px,0)}65%{transform:translate(-2px,0)}}
-  .gr{animation:glitchR 12s infinite}.gc{animation:glitchC 12s infinite}.tj{animation:jitter 12s infinite}
-  @keyframes cursor{0%,8%{transform:translate(1240px,250px)}30%{transform:translate(640px,248px)}36%,52%{transform:translate(640px,248px)}70%{transform:translate(900px,60px)}85%,100%{transform:translate(-60px,-40px)}}
-  .cur{animation:cursor 12s infinite ease-in-out}
-  @keyframes nameA{0%,37%{opacity:1}38%,55%{opacity:0}56%,100%{opacity:1}}
-  @keyframes nameB{0%,37%{opacity:0}38%,46%{opacity:1}47%,100%{opacity:0}}
-  @keyframes nameC{0%,46%{opacity:0}47%,55%{opacity:1}56%,100%{opacity:0}}
-  @keyframes chipHot{0%,37%,56%,100%{stroke:#3a3350}38%,55%{stroke:#8ff7c9}}
-  .na{animation:nameA 12s infinite}.nb{animation:nameB 12s infinite}.nc{animation:nameC 12s infinite}
-  .hot{animation:chipHot 12s infinite}
-  @keyframes peek{0%,72%{transform:translate(0,160px)}77%,90%{transform:translate(0,0)}95%,100%{transform:translate(0,160px)}}
-  .cat{animation:peek 12s infinite ease-in-out}
-  @keyframes blink{0%,82%,84%,100%{transform:scaleY(1)}83%{transform:scaleY(.1)}}
-  .eyes{animation:blink 12s infinite;transform-origin:100px 101px}
+  @keyframes glitchR{0%,36.6%,40.2%,100%{transform:translate(0,0);opacity:0}37.2%{transform:translate(-7px,2px);opacity:.85}38.4%{transform:translate(9px,-3px);opacity:.85}39.6%{transform:translate(-3px,0);opacity:.6}}
+  @keyframes glitchC{0%,36.6%,40.2%,100%{transform:translate(0,0);opacity:0}37.2%{transform:translate(6px,-2px);opacity:.85}38.4%{transform:translate(-8px,3px);opacity:.85}39.6%{transform:translate(4px,1px);opacity:.6}}
+  @keyframes jitter{0%,36.6%,40.2%,100%{transform:translate(0,0)}37.8%{transform:translate(3px,0)}39%{transform:translate(-2px,0)}}
+  .gr{animation:glitchR 20s infinite}.gc{animation:glitchC 20s infinite}.tj{animation:jitter 20s infinite}
+  @keyframes cursor{0%,4.8%{transform:translate(1240px,250px)}18%{transform:translate(640px,248px)}21.6%,31.2%{transform:translate(640px,248px)}42%{transform:translate(900px,60px)}51%,100%{transform:translate(-60px,-40px)}}
+  .cur{animation:cursor 20s infinite ease-in-out}
+  @keyframes nameA{0%,22.2%{opacity:1}22.8%,33%{opacity:0}33.6%,100%{opacity:1}}
+  @keyframes nameB{0%,22.2%{opacity:0}22.8%,27.6%{opacity:1}28.2%,100%{opacity:0}}
+  @keyframes nameC{0%,27.6%{opacity:0}28.2%,33%{opacity:1}33.6%,100%{opacity:0}}
+  @keyframes chipHot{0%,22.2%,33.6%,100%{stroke:#3a3350}22.8%,33%{stroke:#8ff7c9}}
+  .na{animation:nameA 20s infinite}.nb{animation:nameB 20s infinite}.nc{animation:nameC 20s infinite}
+  .hot{animation:chipHot 20s infinite}
+  @keyframes peek{0%,43.2%{transform:translate(0,160px)}46.2%,54%{transform:translate(0,0)}57%,100%{transform:translate(0,160px)}}
+  .cat{animation:peek 20s infinite ease-in-out}
+  @keyframes blink{0%,49.2%,50.4%,100%{transform:scaleY(1)}49.8%{transform:scaleY(.1)}}
+  .eyes{animation:blink 20s infinite;transform-origin:100px 101px}
   @keyframes flick{0%,100%{opacity:.55}50%{opacity:.8}}
+
   .scan{animation:flick 3s infinite}
 </style>
 <defs>

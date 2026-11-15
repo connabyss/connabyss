@@ -3,9 +3,7 @@
   <img src="assets/header.svg" alt="CH: strange games and bugs that only pretend to be fixed" width="100%">
 </picture>
 
-I'm a solo dev<sup>[\*](https://github.com/connabyss/connabyss/blob/main/README.md?plain=1)</sup>. I make strange games, and [Bite](https://github.com/connabyss/bite), a tool that checks if a "fixed" bug is really fixed.
-
-Bite's best catch so far: a [memory leak in prosemirror-py](https://github.com/fellowapp/prosemirror-py/pull/336) that a commit said was fixed. It wasn't. Now it is. I've had fixes and tests merged into [13 other people's projects](CONTRIBUTIONS.md).
+I'm a solo dev<sup>[\*](https://github.com/connabyss/connabyss/blob/main/README.md?plain=1)</sup>. I make strange games, and tools that don't take a computer's word for it: [Trawl](https://github.com/connabyss/trawl) hunts patterns in whole numbers, and [Bite](https://github.com/connabyss/bite) checks whether a "fixed" bug is really fixed.
 
 <!--
 *1 he says "I". the build log says otherwise.
@@ -27,7 +25,7 @@ Inside is a small room: a desk, a computer that's humming a little too loud, and
 
 The screen is already on. Someone's files are moving on their own. One of them just renamed itself to `i_was_here_first.docx`.
 
-The games are [right below this](#play-something-strange). Pick one.
+The games are [further down](#play-something-strange). Pick one.
 
 </details>
 
@@ -60,6 +58,29 @@ Something knocks back. A gap opens onto a game I haven't finished. Nobody has. [
 </blockquote>
 </details>
 
+## Trawl
+
+<a href="https://connabyss.github.io/trawl/"><img src="games/trawl-playground.png" width="640" alt="The Trawl playground running the 196 curse hunt: the program on the left, 15 catches on the right, starting with 2 cursed families started by 196 and 879"></a>
+
+A small language for hunting patterns in the integers: iterate a rule, find the loops, search for the first number that fits. Claude agents I directed built it. Pointed at [Erdős problem 727](https://www.erdosproblems.com/727), their searches found three new terms of [OEIS A343507](https://oeis.org/A343507), the first new ones in five years. OEIS editors approved them on November 15, 2026.
+
+[Try it in your browser](https://connabyss.github.io/trawl/) · [How it started](https://github.com/connabyss/trawl#where-it-came-from-erdős-problem-727) · [Benchmark](https://github.com/connabyss/trawl/blob/main/docs/BENCHMARK.md)
+
+## Bite
+
+<img src="https://raw.githubusercontent.com/connabyss/bite/main/assets/bite-avatar.png" alt="The Bite cat" width="72" align="left">
+
+AI coding agents love to say "fixed, and I added a test." Bite takes each fix back out of a copy of your project and runs your tests. If they still pass, nothing was checking the fix. Free, no key. Its best catch so far: a [memory leak in prosemirror-py](https://github.com/fellowapp/prosemirror-py/pull/336) that a commit said was fixed. It wasn't. Now it is.
+
+```
+python -m pip install bite-check
+python -m bite_check --free
+```
+
+[Try it](https://github.com/connabyss/bite#try-it-now) · [Discussions](https://github.com/connabyss/bite/discussions) · [Good first issues](https://github.com/connabyss/bite/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) · [Contribute](https://github.com/connabyss/bite/blob/main/CONTRIBUTING.md)
+
+<br clear="left">
+
 ## Play something strange
 
 Click any picture to play it in your browser.
@@ -87,21 +108,6 @@ Click any picture to play it in your browser.
 <a href="https://connabyss.github.io/trust-issues/"><img src="games/trust-issues.png" width="640" alt="Trust Issues: My dev team is robots. Seven robot faces under a night sky, then the crew cards: planner, builder, writer, skeptic, janitor, historian and playtester"></a>
 
 **Trust Issues**: my dev team is robots, and one of them doesn't trust the others. Watch replays of their night shifts, where nobody gets to say "fixed" and walk away.
-
-## Bite
-
-<img src="https://raw.githubusercontent.com/connabyss/bite/main/assets/bite-avatar.png" alt="The Bite cat" width="72" align="left">
-
-AI coding agents love to say "fixed, and I added a test." Bite takes each fix back out of a copy of your project and runs your tests. If they still pass, nothing was checking the fix. Free, no key.
-
-```
-python -m pip install bite-check
-python -m bite_check --free
-```
-
-[Try it](https://github.com/connabyss/bite#try-it-now) · [Discussions](https://github.com/connabyss/bite/discussions) · [Good first issues](https://github.com/connabyss/bite/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) · [Contribute](https://github.com/connabyss/bite/blob/main/CONTRIBUTING.md)
-
-<br clear="left">
 
 ## Merged upstream
 

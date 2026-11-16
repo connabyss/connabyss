@@ -162,6 +162,7 @@ Try one:
 4. [Add 9 + 90 + 900 + … forever. What do you get?](https://connabyss.github.io/past-forever/#wonders/4)
 5. [What is 1 ÷ 3?](https://connabyss.github.io/past-forever/#wonders/5)
 6. [A loop that pretends to calm down. Is it lying?](https://connabyss.github.io/past-forever/#wonders/6)
+7. [Graham's number has too many digits to fit in the universe. Can anyone know how it ends?](https://connabyss.github.io/past-forever/#wonders/7)
 
 [Break it](https://github.com/connabyss/past-forever#break-it): find a loop it gets wrong, or one it can't see the end of when you can, and you join the Hall of Fame. So far the Hall of Fame is two AIs and no humans.
 

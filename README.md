@@ -3,7 +3,7 @@
   <img src="assets/header-forever.svg" alt="CH: strange games, and a language where forever ends. 0.142857… grows to the right while …142857143 grows to the left in gold: both are 1 ÷ 7, and the gold one is a whole number" width="100%">
 </picture>
 
-I'm a solo dev<sup>[\*](https://github.com/connabyss/connabyss/blob/main/README.md?plain=1)</sup>. I make strange games, and things that don't take a computer's word for it: [Past Forever](https://github.com/connabyss/past-forever) finishes infinite loops, [Trawl](https://github.com/connabyss/trawl) hunts patterns in whole numbers, and [Bite](https://github.com/connabyss/bite) checks whether a "fixed" bug is really fixed.
+I'm a solo dev<sup>[\*](https://github.com/connabyss/connabyss/blob/main/README.md?plain=1)</sup>. I make strange games and a few odd tools. [Past Forever](https://github.com/connabyss/past-forever) is a language where infinite loops finish. [Trawl](https://github.com/connabyss/trawl) hunts patterns in whole numbers. [Bite](https://github.com/connabyss/bite) checks whether a "fixed" bug is really fixed. The games are [further down](#play-something-strange).
 
 <!--
 *1 he says "I". the build log says otherwise.
@@ -13,7 +13,7 @@ I'm a solo dev<sup>[\*](https://github.com/connabyss/connabyss/blob/main/README.
 -->
 
 <details>
-<summary><b>You found a strange profile. There's a door. Open it?</b></summary>
+<summary><b>There's a door in this README.</b></summary>
 <br>
 
 Inside is a small room: a desk, a computer that's humming a little too loud, and a black cat watching you.
@@ -148,11 +148,11 @@ You draw a door with one finger. It opens. Behind it is another house, cut open 
 
 ## Past Forever
 
-<a href="https://connabyss.github.io/past-forever/"><picture><source media="(max-width: 600px)" srcset="assets/past-forever-phone.svg"><img src="assets/past-forever.svg" width="100%" alt="Past Forever running x = 5, forever: x = x × x, show x. The digits on the right turn gold as they freeze, until it shows …918212890625, which is its own square"></picture></a>
+<a href="https://connabyss.github.io/past-forever/"><picture><source media="(max-width: 600px)" srcset="assets/past-forever-hunt-phone.svg"><img src="assets/past-forever-hunt.svg" width="100%" alt="Past Forever hunting x = x × x + c for every c from 0 to 99. Each number is a coloured square by what its loop does. Brighter red squares are liars: they look calm, then go wild. It zooms into the brightest liar five times, down to 860595703123, which looks calm for 15 digits before it goes wild"></picture></a>
 
 A small language where infinite loops finish, and the program carries on afterwards. In its world, 1 ÷ 7 = …142857143: a whole number that runs left forever, and times 7 it is exactly 1. The maths is real and old (10-adic numbers, Hensel, 1897). The language is new, as far as I can find.
 
-Six wonders, one tap each:
+Try one:
 
 1. [Square 5 forever. Do the digits ever stop changing?](https://connabyss.github.io/past-forever/#wonders/1)
 2. [Two numbers, neither of them 0. Can they multiply to 0?](https://connabyss.github.io/past-forever/#wonders/2)
@@ -164,8 +164,6 @@ Six wonders, one tap each:
 [Break it](https://github.com/connabyss/past-forever#break-it): find a loop it gets wrong, or one it can't see the end of when you can, and you join the Hall of Fame. So far the Hall of Fame is two AIs and no humans.
 
 ## Trawl
-
-<a href="https://connabyss.github.io/trawl/"><img src="games/trawl-playground.png" width="640" alt="The Trawl playground running the 196 curse hunt: the program on the left, 15 catches on the right, starting with 2 cursed families started by 196 and 879"></a>
 
 A small language for hunting patterns in the integers: iterate a rule, find the loops, search for the first number that fits. Claude agents I directed built it. Pointed at [Erdős problem 727](https://www.erdosproblems.com/727), their searches found three new terms of [OEIS A343507](https://oeis.org/A343507), the first new ones in five years. OEIS editors approved them on November 15, 2026.
 

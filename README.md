@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/header-phone.svg">
-  <img src="assets/header.svg" alt="CH: strange games and bugs that only pretend to be fixed" width="100%">
+  <source media="(max-width: 600px)" srcset="assets/header-forever-phone.svg">
+  <img src="assets/header-forever.svg" alt="CH: strange games, and a language where forever ends. 0.142857… grows to the right while …142857143 grows to the left in gold: both are 1 ÷ 7, and the gold one is a whole number" width="100%">
 </picture>
 
 I'm a solo dev<sup>[\*](https://github.com/connabyss/connabyss/blob/main/README.md?plain=1)</sup>. I make strange games, and things that don't take a computer's word for it: [Past Forever](https://github.com/connabyss/past-forever) finishes infinite loops, [Trawl](https://github.com/connabyss/trawl) hunts patterns in whole numbers, and [Bite](https://github.com/connabyss/bite) checks whether a "fixed" bug is really fixed.

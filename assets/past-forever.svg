@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330" role="img" aria-label="Past Forever: 5 squared again and again. The digits on the right turn gold one at a time as they freeze, until after forever it shows …918212890625, a number that is its own square.">
+<style>
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+.num{font-size:84px;font-weight:700;letter-spacing:2px}
+.gold{fill:#ffcf4d}
+.cap{font-size:26px;fill:#c9bfd8}
+.ttl{font-size:30px;font-weight:700;fill:#ffcf4d;letter-spacing:4px}
+.tag{font-size:26px;fill:#8f84a8}
+.small{font-size:22px;fill:#8f84a8;font-style:italic}
+@keyframes h1{0%,100%{stop-color:#2a1838}33%{stop-color:#102a30}66%{stop-color:#2e2410}}
+@keyframes h2{0%,100%{stop-color:#0f2230}33%{stop-color:#2a1030}66%{stop-color:#14102a}}
+.s1{animation:h1 24s infinite}.s2{animation:h2 24s infinite}
+.glow{filter:url(#glow)}
+@keyframes f0{0%,4.70%{opacity:1}5.00%,100%{opacity:0}}.f0{animation:f0 16.0s infinite}
+@keyframes f1{0%,4.70%{opacity:0}5.00%,9.70%{opacity:1}10.00%,100%{opacity:0}}.f1{animation:f1 16.0s infinite}
+@keyframes f2{0%,9.70%{opacity:0}10.00%,14.70%{opacity:1}15.00%,100%{opacity:0}}.f2{animation:f2 16.0s infinite}
+@keyframes f3{0%,14.70%{opacity:0}15.00%,19.70%{opacity:1}20.00%,100%{opacity:0}}.f3{animation:f3 16.0s infinite}
+@keyframes f4{0%,19.70%{opacity:0}20.00%,24.70%{opacity:1}25.00%,100%{opacity:0}}.f4{animation:f4 16.0s infinite}
+@keyframes f5{0%,24.70%{opacity:0}25.00%,29.70%{opacity:1}30.00%,100%{opacity:0}}.f5{animation:f5 16.0s infinite}
+@keyframes f6{0%,29.70%{opacity:0}30.00%,34.70%{opacity:1}35.00%,100%{opacity:0}}.f6{animation:f6 16.0s infinite}
+@keyframes f7{0%,34.70%{opacity:0}35.00%,39.70%{opacity:1}40.00%,100%{opacity:0}}.f7{animation:f7 16.0s infinite}
+@keyframes f8{0%,39.70%{opacity:0}40.00%,44.70%{opacity:1}45.00%,100%{opacity:0}}.f8{animation:f8 16.0s infinite}
+@keyframes f9{0%,44.70%{opacity:0}45.00%,49.70%{opacity:1}50.00%,100%{opacity:0}}.f9{animation:f9 16.0s infinite}
+@keyframes f10{0%,49.70%{opacity:0}50.00%,54.70%{opacity:1}55.00%,100%{opacity:0}}.f10{animation:f10 16.0s infinite}
+@keyframes f11{0%,54.70%{opacity:0}55.00%,99.4%{opacity:1}100%{opacity:0}}.f11{animation:f11 16.0s infinite}
+</style>
+<defs><radialGradient id="bg" cx="72%" cy="35%" r="85%"><stop offset="0" class="s1" stop-color="#2a1838"/><stop offset=".45" class="s2" stop-color="#0f2230"/><stop offset="1" stop-color="#07060c"/></radialGradient><filter id="glow" x="-10%" y="-40%" width="120%" height="180%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="fr"><rect width="1200" height="330" rx="18"/></clipPath></defs>
+<g clip-path="url(#fr)"><rect width="1200" height="330" fill="url(#bg)"/>
+<g class="mono">
+<text x="80" y="70" class="ttl">PAST FOREVER</text>
+<text x="80" y="106" class="tag">a language where infinite loops finish</text>
+<g class="f0"><text x="1120" y="196" class="num" text-anchor="end"><tspan fill="#6f6585"></tspan><tspan fill="#f3eefb"></tspan><tspan class="gold glow">5</tspan></text><text x="80" y="250" class="cap">start with 5</text></g>
+<g class="f1"><text x="1120" y="196" class="num" text-anchor="end"><tspan fill="#6f6585"></tspan><tspan fill="#f3eefb"></tspan><tspan class="gold glow">25</tspan></text><text x="80" y="250" class="cap">squared 1 time</text></g>
+<g class="f2"><text x="1120" y="196" class="num" text-anchor="end"><tspan fill="#6f6585"></tspan><tspan fill="#f3eefb"></tspan><tspan class="gold glow">625</tspan></text><text x="80" y="250" class="cap">squared 2 times</text></g>
+<g class="f3"><text x="1120" y="196" class="num" text-anchor="end"><tspan fill="#6f6585"></tspan><tspan fill="#f3eefb">3</tspan><tspan class="gold glow">90625</tspan></text><text x="80" y="250" class="cap">squared 3 times</text></g>
+<g class="f4"><text x="1120" y="196" class="num" text-anchor="end"><tspan fill="#6f6585"></tspan><tspan fill="#f3eefb">152587</tspan><tspan class="gold glow">890625</tspan></text><text x="80" y="250" class="cap">squared 4 times</text></g>
+<g class="f5"><text x="1120" y="196" class="num" text-anchor="end"><tspan fill="#6f6585">…</tspan><tspan fill="#f3eefb">38696</tspan><tspan class="gold glow">2890625</tspan></text><text x="80" y="250" class="cap">squared 5 times</text></g>
+<g class="f6"><text x="1120" y="196" class="num" text-anchor="end"><tspan fill="#6f6585">…</tspan><tspan fill="#f3eefb">8557</tspan><tspan class="gold glow">12890625</tspan></text><text x="80" y="250" class="cap">squared 6 times</text></g>
+<g class="f7"><text x="1120" y="196" class="num" text-anchor="end"><tspan fill="#6f6585">…</tspan><tspan fill="#f3eefb">793</tspan><tspan class="gold glow">212890625</tspan></text><text x="80" y="250" class="cap">squared 7 times</text></g>
+<g class="f8"><text x="1120" y="196" class="num" text-anchor="end"><tspan fill="#6f6585">…</tspan><tspan fill="#f3eefb">66</tspan><tspan class="gold glow">8212890625</tspan></text><text x="80" y="250" class="cap">squared 8 times</text></g>
+<g class="f9"><text x="1120" y="196" class="num" text-anchor="end"><tspan fill="#6f6585">…</tspan><tspan fill="#f3eefb">4</tspan><tspan class="gold glow">18212890625</tspan></text><text x="80" y="250" class="cap">squared 9 times</text></g>
+<g class="f10"><text x="1120" y="196" class="num" text-anchor="end"><tspan fill="#6f6585">…</tspan><tspan fill="#f3eefb"></tspan><tspan class="gold glow">918212890625</tspan></text><text x="80" y="250" class="cap">squared 10 times</text></g>
+<g class="f11"><text x="1120" y="196" class="num gold glow" text-anchor="end"><tspan fill="#6f6585">…</tspan>918212890625</text><text x="80" y="250" class="cap">after forever: its own square. <tspan class="gold">(proved)</tspan></text><text x="80" y="290" class="small">you just watched an infinite loop finish. you were here the whole time.</text></g>
+</g></g></svg>

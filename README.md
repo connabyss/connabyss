@@ -148,7 +148,7 @@ You draw a door with one finger. It opens. Behind it is another house, cut open 
 
 ## Past Forever
 
-<a href="https://connabyss.github.io/past-forever/"><picture><source media="(max-width: 600px)" srcset="assets/past-forever-phone.svg"><img src="assets/past-forever.svg" width="100%" alt="Past Forever: 5 squared again and again. The digits on the right turn gold as they freeze, until after forever it shows …918212890625, a number that is its own square"></picture></a>
+<a href="https://connabyss.github.io/past-forever/"><picture><source media="(max-width: 600px)" srcset="assets/past-forever-phone.svg"><img src="assets/past-forever.svg" width="100%" alt="Past Forever running x = 5, forever: x = x × x, show x. The digits on the right turn gold as they freeze, until it shows …918212890625, which is its own square"></picture></a>
 
 A small language where infinite loops finish, and the program carries on afterwards. In its world, 1 ÷ 7 = …142857143: a whole number that runs left forever, and times 7 it is exactly 1. The maths is real and old (10-adic numbers, Hensel, 1897). The language is new, as far as I can find.
 

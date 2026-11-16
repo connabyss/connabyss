@@ -1,32 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img" aria-label="CH: strange games, and a language where forever ends. Two rows of digits grow in opposite directions: 0.142857142857... grows to the right, and ...142857142857143 grows to the left in gold. Both are 1 divided by 7, and the gold one is a whole number.">
 <style>
 .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
-.t{font-size:88px;font-weight:700;letter-spacing:6px;fill:#f3eefb}
-.sub{font-size:22px;fill:#c9bfd8}
-.d{font-size:34px;fill:#b3aac9}
-.g{font-size:34px;fill:#ffcf4d;font-weight:700}
-.cap{font-size:20px;fill:#8f84a8;font-style:italic}
+.t{font-size:88px;font-weight:700;letter-spacing:6px;fill:#ece8dc}
+.sub{font-size:22px;fill:#c8c4cc}
+.d{font-size:34px;fill:#a8a4b0}
+.g{font-size:34px;fill:#f2b01e;font-weight:700}
+.cap{font-size:20px;fill:#7d7986}
 @keyframes rv1{0%{transform:translateX(0)}66.7%,100%{transform:translateX(510.00px)}}
 @keyframes rv2{0%{transform:translateX(0)}66.7%,100%{transform:translateX(-550.80px)}}
 .rv1{animation:rv1 15s steps(25,end) infinite}.rv2{animation:rv2 15s steps(27,end) infinite}
-@keyframes h1{0%,100%{stop-color:#2a1838}33%{stop-color:#102a30}66%{stop-color:#2e2410}}
-@keyframes h2{0%,100%{stop-color:#0f2230}33%{stop-color:#2a1030}66%{stop-color:#14102a}}
-.s1{animation:h1 24s infinite}.s2{animation:h2 24s infinite}
 </style>
 <defs>
-<radialGradient id="bg" cx="70%" cy="40%" r="85%"><stop offset="0" class="s1" stop-color="#2a1838"/><stop offset=".45" class="s2" stop-color="#0f2230"/><stop offset="1" stop-color="#07060c"/></radialGradient>
 <clipPath id="c1"><rect class="rv1" x="-429.20" y="0" width="510.00" height="480"/></clipPath>
 <clipPath id="c2"><rect class="rv2" x="600.00" y="0" width="552.80" height="480"/></clipPath>
 <linearGradient id="gr"><stop offset=".6" stop-color="#fff"/><stop offset=".95" stop-color="#000"/></linearGradient>
 <linearGradient id="gl"><stop offset=".05" stop-color="#000"/><stop offset=".4" stop-color="#fff"/></linearGradient>
 <mask id="fr" maskUnits="userSpaceOnUse"><rect width="640" height="480" fill="url(#gr)"/></mask>
 <mask id="fl" maskUnits="userSpaceOnUse"><rect width="640" height="480" fill="url(#gl)"/></mask>
-<clipPath id="fra"><rect width="640" height="480" rx="18"/></clipPath>
+<clipPath id="fra"><rect width="640" height="480" rx="12"/></clipPath>
 </defs>
-<g clip-path="url(#fra)"><rect width="640" height="480" fill="url(#bg)"/>
+<g clip-path="url(#fra)"><rect width="640" height="480" fill="#0d0c10"/><rect x="0.75" y="0.75" width="638.5" height="478.5" rx="12" fill="none" stroke="#2a2830" stroke-width="1.5"/>
 <g class="m">
 <text x="40" y="108" class="t">CH</text>
-<text x="40" y="156" class="sub">strange games ·</text><text x="40" y="190" class="sub">a language where forever ends</text>
+<text x="40" y="156" class="sub">strange games</text><text x="40" y="190" class="sub">a language where forever ends</text>
 <text x="40" y="280" class="d" textLength="40.80" lengthAdjust="spacing">0.</text>
 <g clip-path="url(#c1)" mask="url(#fr)"><text x="80.80" y="280" class="d" textLength="510.00" lengthAdjust="spacing">1428571428571428571428571</text></g>
 <g clip-path="url(#c2)" mask="url(#fl)"><text x="49.20" y="340" class="g" textLength="550.80" lengthAdjust="spacing">142857142857142857142857143</text></g>

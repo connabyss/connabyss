@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" width="1200" height="350" role="img" aria-label="CH: strange games, and a language where forever ends. Two rows of digits grow in opposite directions: 0.142857142857... grows to the right, and ...142857142857143 grows to the left in gold. Both are 1 divided by 7, and the gold one is a whole number.">
+<style>
+.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+.t{font-size:96px;font-weight:700;letter-spacing:6px;fill:#ece8dc}
+.sub{font-size:24px;fill:#c8c4cc}
+.d{font-size:44px;fill:#a8a4b0}
+.g{font-size:44px;fill:#f2b01e;font-weight:700}
+.cap{font-size:22px;fill:#7d7986}
+@keyframes rv1{0%{transform:translateX(0)}66.7%,100%{transform:translateX(976.80px)}}
+@keyframes rv2{0%{transform:translateX(0)}66.7%,100%{transform:translateX(-1029.60px)}}
+.rv1{animation:rv1 15s steps(37,end) infinite}.rv2{animation:rv2 15s steps(39,end) infinite}
+</style>
+<defs>
+<clipPath id="c1"><rect class="rv1" x="-844.00" y="0" width="976.80" height="350"/></clipPath>
+<clipPath id="c2"><rect class="rv2" x="1120.00" y="0" width="1031.60" height="350"/></clipPath>
+<linearGradient id="gr"><stop offset=".6" stop-color="#fff"/><stop offset=".95" stop-color="#000"/></linearGradient>
+<linearGradient id="gl"><stop offset=".05" stop-color="#000"/><stop offset=".4" stop-color="#fff"/></linearGradient>
+<mask id="fr" maskUnits="userSpaceOnUse"><rect width="1200" height="350" fill="url(#gr)"/></mask>
+<mask id="fl" maskUnits="userSpaceOnUse"><rect width="1200" height="350" fill="url(#gl)"/></mask>
+<clipPath id="fra"><rect width="1200" height="350" rx="12"/></clipPath>
+</defs>
+<g clip-path="url(#fra)"><rect width="1200" height="350" fill="#0d0c10"/><rect x="0.75" y="0.75" width="1198.5" height="348.5" rx="12" fill="none" stroke="#2a2830" stroke-width="1.5"/>
+<g class="m">
+<text x="80" y="112" class="t">CH</text>
+<text x="80" y="160" class="sub">strange games · a language where forever ends</text>
+<text x="80" y="224" class="d" textLength="52.80" lengthAdjust="spacing">0.</text>
+<g clip-path="url(#c1)" mask="url(#fr)"><text x="132.80" y="224" class="d" textLength="976.80" lengthAdjust="spacing">1428571428571428571428571428571428571</text></g>
+<g clip-path="url(#c2)" mask="url(#fl)"><text x="90.40" y="280" class="g" textLength="1029.60" lengthAdjust="spacing">142857142857142857142857142857142857143</text></g>
+<text x="80" y="322" class="cap">both rows are 1 ÷ 7. the gold one is a whole number.</text>
+</g></g></svg>

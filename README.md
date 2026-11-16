@@ -3,7 +3,9 @@
   <img src="assets/header-forever.svg" alt="CH: strange games, and a language where forever ends. 0.142857… grows to the right while …142857143 grows to the left in gold: both are 1 ÷ 7, and the gold one is a whole number" width="100%">
 </picture>
 
-I'm a solo dev<sup>[\*](https://github.com/connabyss/connabyss/blob/main/README.md?plain=1)</sup>. I make strange games and a few odd tools. [Past Forever](https://github.com/connabyss/past-forever) is a language where infinite loops finish. [Trawl](https://github.com/connabyss/trawl) hunts patterns in whole numbers. [Bite](https://github.com/connabyss/bite) checks whether a "fixed" bug is really fixed. The games are [further down](#play-something-strange).
+I'm a solo dev<sup>[\*](https://github.com/connabyss/connabyss/blob/main/README.md?plain=1)</sup>. I make strange games and a few odd tools. [Past Forever](https://github.com/connabyss/past-forever) is a language where infinite loops finish. [Trawl](https://github.com/connabyss/trawl) hunts patterns in whole numbers. [Bite](https://github.com/connabyss/bite) checks whether a "fixed" bug is really fixed. And [games](#play-something-strange):
+
+<p><a href="https://connabyss.itch.io/the-shifting-house"><img src="games/thumb-shifting-house.png" width="24%" alt="The Shifting House"></a> <a href="https://claude.ai/artifact/9F1638bwzjDckfcpDHseXe"><img src="games/thumb-unknown-process.png" width="24%" alt="Unknown Process"></a> <a href="https://connabyss.github.io/excuse-court/"><img src="games/thumb-excuse-court.png" width="24%" alt="Excuse Court"></a> <a href="https://connabyss.github.io/cold-case"><img src="games/thumb-cold-case.png" width="24%" alt="Cold Case Unit"></a></p>
 
 <!--
 *1 he says "I". the build log says otherwise.

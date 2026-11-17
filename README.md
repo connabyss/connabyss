@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/header-forever-phone.svg">
-  <img src="assets/header-forever.svg" alt="CH: strange games, and a language where forever ends. 0.142857… grows to the right while …142857143 grows to the left in gold: both are 1 ÷ 7, and the gold one is a whole number" width="100%">
+  <source media="(max-width: 600px)" srcset="assets/header-machine-phone.jpg">
+  <img src="assets/header-machine.jpg" alt="CH: strange games, and a language where forever ends. On a dark wooden desk sits a worn cream machine labelled Past Forever. Its digit wheels read …42857142857142857143, which is 1 ÷ 7 as a whole number, every wheel locked, and its SETTLES lamp glows. A card coming out of it asks: What is 1 ÷ 7, if the digits run left?" width="100%">
 </picture>
 
 I'm a solo dev<sup>[\*](https://github.com/connabyss/connabyss/blob/main/README.md?plain=1)</sup>. I make strange games and a few odd tools. [Past Forever](https://github.com/connabyss/past-forever) is a language where infinite loops finish. [Trawl](https://github.com/connabyss/trawl) hunts patterns in whole numbers. [Bite](https://github.com/connabyss/bite) checks whether a "fixed" bug is really fixed. And [games](#play-something-strange):

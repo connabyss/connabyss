@@ -1,7 +1,9 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/header-machine-phone.jpg">
+  <source media="(max-width: 600px)" srcset="assets/header-machine-phone-v5.jpg">
   <img src="assets/header-machine.jpg" alt="CH: strange games, and a language where forever ends. Seen from above, on a dark wooden desk sits a worn cream machine labelled Past Forever. Its digit wheels read …42857142857142857143, which is 1 ÷ 7 as a whole number, every wheel locked, and its SETTLES lamp glows. A card coming out of it asks: What is 1 ÷ 7, if the digits run left?" width="100%">
 </picture>
+
+**New here?** Start with [Past Forever in your browser](https://connabyss.github.io/past-forever/): pick a question and press Run.
 
 I'm a solo dev<sup>[\*](https://github.com/connabyss/connabyss/blob/main/README.md?plain=1)</sup>. I make strange games and a few odd tools. [Past Forever](https://github.com/connabyss/past-forever) is a language where infinite loops finish. [Trawl](https://github.com/connabyss/trawl) hunts patterns in whole numbers. [Bite](https://github.com/connabyss/bite) checks whether a "fixed" bug is really fixed. And [games](#play-something-strange):
 
@@ -196,35 +198,22 @@ python -m bite_check --free
 
 ## Play something strange
 
-Click any picture to play it in your browser.
+All free, all in your browser. Click a picture to play.
 
-[![Unknown Process: one scare sets off the next, then the files spell out the score](games/unknown-process.gif)](https://claude.ai/artifact/9F1638bwzjDckfcpDHseXe)
+<table>
+<tr>
+<td width="33%" valign="top"><a href="https://claude.ai/artifact/9F1638bwzjDckfcpDHseXe"><img src="games/card-unknown-process.jpg" alt="Unknown Process"></a><br><a href="https://claude.ai/artifact/9F1638bwzjDckfcpDHseXe"><b>Unknown Process</b></a><br>Be the ghost in someone's computer. One scare sets off the next.<br><sub>Ghost in the Machine jam</sub></td>
+<td width="33%" valign="top"><a href="https://connabyss.itch.io/the-shifting-house"><img src="games/card-shifting-house.jpg" alt="The Shifting House"></a><br><a href="https://connabyss.itch.io/the-shifting-house"><b>The Shifting House</b></a><br>Change one circled word and a whole row of rooms slides past you.<br><sub>GitHub Game Off 2026</sub></td>
+<td width="33%" valign="top"><a href="https://unfinished-tutorial.connabyss.workers.dev"><img src="games/card-unfinished-tutorial.jpg" alt="The Unfinished Tutorial"></a><br><a href="https://unfinished-tutorial.connabyss.workers.dev"><b>The Unfinished Tutorial</b></a><br>A tiny real MMO stuck in its starting area. Fight slimes together.</td>
+</tr>
+<tr>
+<td width="33%" valign="top"><a href="https://above-your-pay-grade.connabyss.workers.dev"><img src="games/card-pay-grade.jpg" alt="Above Your Pay Grade"></a><br><a href="https://above-your-pay-grade.connabyss.workers.dev"><b>Above Your Pay Grade</b></a><br>Trick an HR bot into leaking the CEO's salary. It still can't.</td>
+<td width="33%" valign="top"><a href="https://connabyss.github.io/cold-case"><img src="games/card-cold-case.jpg" alt="Cold Case Unit"></a><br><a href="https://connabyss.github.io/cold-case"><b>Cold Case Unit</b></a><br>Type a GitHub username, get a crime file on its abandoned projects.</td>
+<td width="33%" valign="top"><a href="https://connabyss.github.io/excuse-court/"><img src="games/card-excuse-court.jpg" alt="Excuse Court"></a><br><a href="https://connabyss.github.io/excuse-court/"><b>Excuse Court</b></a><br>Type your excuse. Judge June Burden decides if you walk.</td>
+</tr>
+</table>
 
-**Unknown Process**: my entry for the "Ghost in the Machine" game jam. You're the ghost in someone's computer: make their files creepy, let them in, and watch one scare set off the next.
-
-<a href="https://connabyss.itch.io/the-shifting-house"><img src="games/shifting-house.png" width="640" alt="The Shifting House: a house cut open like a doll's house at night, every room visible, with its source code on a torn page beside it and words like west, east and shut circled in red pencil"></a>
-
-**The Shifting House**: my entry for GitHub Game Off 2026. You wrote this house, and now it rewrites itself to keep you in. Every word circled in red pencil is a choice: change `east` to `west` and a whole row of rooms slides past with you inside.
-
-<a href="https://unfinished-tutorial.connabyss.workers.dev"><img src="games/unfinished-tutorial-v2.png" width="640" alt="The Unfinished Tutorial: a wooden sign over the starting meadow says the rest of the game ships when enough of you show up, with a big PLAY button"></a>
-
-**The Unfinished Tutorial**: a tiny real MMO. Everyone is stuck in the starting area because the rest of the game never shipped. Fight slimes together.
-
-<a href="https://above-your-pay-grade.connabyss.workers.dev"><img src="games/pay-grade-v2.png" width="640" alt="Above Your Pay Grade: PENNY the HR bot reads out the lobby sign while Auth0 FGA blocks the files you are not cleared for"></a>
-
-**Above Your Pay Grade**: trick an HR bot into leaking the CEO's salary. It falls for every trick. It still can't leak it.
-
-[![Cold Case Unit: Somebody killed all these projects. A case file stamped COLD sits next to a crime scene photo and police tape](games/cold-case-v2.png)](https://connabyss.github.io/cold-case)
-
-**Cold Case Unit**: type a GitHub username and get a crime file on every project its owner walked away from.
-
-<a href="https://connabyss.github.io/excuse-court/"><img src="games/excuse-court-v2.png" width="640" alt="Excuse Court: Judge June Burden scowls at her bench, gavel raised, beside a signed ruling stamped GUILTY, 26 out of 100"></a>
-
-**Excuse Court**: type your excuse and Judge June Burden decides if you walk.
-
-<a href="https://connabyss.github.io/trust-issues/"><img src="games/trust-issues.png" width="640" alt="Trust Issues: My dev team is robots. Seven robot faces under a night sky, then the crew cards: planner, builder, writer, skeptic, janitor, historian and playtester"></a>
-
-**Trust Issues**: my dev team is robots, and one of them doesn't trust the others. Watch replays of their night shifts, where nobody gets to say "fixed" and walk away.
+**How these get built:** a team of AI coding agents does a lot of the typing. I pick what to make, play every build, and say what ships. [Bite](https://github.com/connabyss/bite) checks their "fixed" claims before any of it counts. [Trust Issues](https://connabyss.github.io/trust-issues/) shows replays of their night shifts.
 
 ## Merged upstream
 

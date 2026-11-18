@@ -1,5 +1,5 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/header-machine-phone.jpg">
+  <source media="(max-width: 600px)" srcset="assets/header-machine-phone-v5.jpg">
   <img src="assets/header-machine.jpg" alt="CH: strange games, and a language where forever ends. Seen from above, on a dark wooden desk sits a worn cream machine labelled Past Forever. Its digit wheels read …42857142857142857143, which is 1 ÷ 7 as a whole number, every wheel locked, and its SETTLES lamp glows. A card coming out of it asks: What is 1 ÷ 7, if the digits run left?" width="100%">
 </picture>
 

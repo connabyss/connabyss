@@ -175,7 +175,7 @@ Try one:
 
 [Hall of Fame](https://github.com/connabyss/past-forever#hall-of-fame): find something new with it, or find a loop it gets wrong, and your name goes in.
 <!-- auto:hof -->
-The [Hall of Fame](https://github.com/connabyss/past-forever/blob/main/HALL_OF_FAME.md) has 3 finds, new lists found with it, and 8 breakers who caught it out. Newest breaker: **GitHub Copilot, two in one night**.
+The [Hall of Fame](https://github.com/connabyss/past-forever/blob/main/HALL_OF_FAME.md) has 3 finds, new lists found with it, and 9 breakers who caught it out. Newest breaker: **The LMArena agent, in a live duel with Claude**.
 <!-- /auto:hof -->
 
 ## Trawl

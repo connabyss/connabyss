@@ -173,7 +173,10 @@ Try one:
 6. [A loop that pretends to calm down. Is it lying?](https://connabyss.github.io/past-forever/#wonders/6)
 7. [Graham's number has too many digits to fit in the universe. Can anyone know how it ends?](https://connabyss.github.io/past-forever/#wonders/7)
 
-[Break it](https://github.com/connabyss/past-forever#break-it): find a loop it gets wrong, or one it can't see the end of when you can, and you join the Hall of Fame. So far the Hall of Fame is two AIs and no humans.
+[Break it](https://github.com/connabyss/past-forever#break-it): find a loop it gets wrong, or one it can't see the end of when you can, and you join the Hall of Fame.
+<!-- auto:hof -->
+The [Hall of Fame](https://github.com/connabyss/past-forever/blob/main/BREAK_IT.md#hall-of-fame) has 8 finds. Newest: **GitHub Copilot, two finds in one night**.
+<!-- /auto:hof -->
 
 ## Trawl
 
@@ -185,14 +188,20 @@ A small language for hunting patterns in the integers: iterate a rule, find the 
 
 <img src="https://raw.githubusercontent.com/connabyss/bite/main/assets/bite-avatar.png" alt="The Bite cat" width="72" align="left">
 
-AI coding agents love to say "fixed, and I added a test." Bite takes each fix back out of a copy of your project and runs your tests. If they still pass, nothing was checking the fix. Free, no key. Its best catch so far: a [memory leak in prosemirror-py](https://github.com/fellowapp/prosemirror-py/pull/336) that a commit said was fixed. It wasn't. Now it is.
+AI coding agents love to say "fixed, and I added a test." Bite takes each fix back out of a copy of your project and runs your tests. If they still pass, nothing was checking the fix. Free, no key. Its best catch: a [memory leak in prosemirror-py](https://github.com/fellowapp/prosemirror-py/pull/336) that a commit said was fixed. It wasn't. Now it is.
 
 ```
 python -m pip install bite-check
 python -m bite_check --free
 ```
 
-[Try it](https://github.com/connabyss/bite#try-it-now) · [Discussions](https://github.com/connabyss/bite/discussions) · [Good first issues](https://github.com/connabyss/bite/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) · [Contribute](https://github.com/connabyss/bite/blob/main/CONTRIBUTING.md)
+[Try it](https://github.com/connabyss/bite#try-it-now) · [Discussions](https://github.com/connabyss/bite/discussions) · [Good first issues](https://github.com/connabyss/bite/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) · [Contribute](https://github.com/connabyss/bite/blob/main/CONTRIBUTING.md) · <!-- auto:bite-version -->
+[v1.0.8 on PyPI](https://pypi.org/project/bite-check/)
+<!-- /auto:bite-version -->
+
+<!-- auto:sponsors -->
+Bite is free. [Sponsor it](https://github.com/sponsors/connabyss) for $10 a month and your name goes here.
+<!-- /auto:sponsors -->
 
 <br clear="left">
 
@@ -222,6 +231,6 @@ All free, all in your browser. Click a picture to play.
 - [west](https://github.com/zephyrproject-rtos/west/pull/1013): crash on a reserved project name
 - [h2](https://github.com/python-hyper/h2/pull/1343): a test for duplicate Host headers the check missed
 
-[All 13 projects](CONTRIBUTIONS.md)
+[All of them](CONTRIBUTIONS.md)
 
 <p align="right"><img src="assets/asterisk.png" width="18" alt="*"></p>

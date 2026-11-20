@@ -2,8 +2,27 @@
 
 Fixes and tests I've sent to other projects, most found with [Bite](https://github.com/connabyss/bite).
 
+## Newest merged
+
+This list updates itself every day.
+
+<!-- auto:newest-merged -->
+- **docling-pipelines**: Guard log helpers against missing files/unknown types; escape Drive folder names ([#686](https://github.com/docling-project/docling-pipelines/pull/686))
+- **wardeniq**: Count distinct cases in the editor's "shared by N testcases" note ([#215](https://github.com/adlerqa/wardeniq/pull/215))
+- **claude-seo**: Reject a trailing newline in --release ([#392](https://github.com/AgriciDaniel/claude-seo/pull/392))
+- **wardeniq**: Store one priority vocabulary, High/Medium/Low ([#216](https://github.com/adlerqa/wardeniq/pull/216))
+- **pydynox**: Keep big integers exact in NumberSetAttribute ([#573](https://github.com/ferrumio/pydynox/pull/573))
+<!-- /auto:newest-merged -->
+
+[Every merged one](https://github.com/search?q=author%3Aconnabyss+is%3Apr+is%3Amerged+-user%3Aconnabyss&type=pullrequests&s=updated&o=desc)
+
 ## Merged
 
+- **docling-pipelines**: the log helpers crashed on missing files and unknown types, and Drive folder names weren't escaped ([#686](https://github.com/docling-project/docling-pipelines/pull/686))
+- **wardenIQ**: one priority vocabulary, High/Medium/Low ([#216](https://github.com/adlerqa/wardeniq/pull/216)), and a right count in the "shared by N testcases" note ([#215](https://github.com/adlerqa/wardeniq/pull/215))
+- **claude-seo**: `--release` let a trailing newline through ([#392](https://github.com/AgriciDaniel/claude-seo/pull/392))
+- **pydynox**: big integers lost precision in `NumberSetAttribute` ([#573](https://github.com/ferrumio/pydynox/pull/573))
+- **cachetools**: tests for a past fix, self keyword arguments in cached methods ([#458](https://github.com/tkem/cachetools/pull/458))
 - **prosemirror-py**: a commit said a memory leak was fixed, and it wasn't ([#335](https://github.com/fellowapp/prosemirror-py/issues/335)); fixed in [#336](https://github.com/fellowapp/prosemirror-py/pull/336), plus a shared-list bug in `Mapping` ([#337](https://github.com/fellowapp/prosemirror-py/pull/337))
 - **h2** (Python's HTTP/2 library): test for duplicate Host headers the mismatch check misses ([#1343](https://github.com/python-hyper/h2/pull/1343))
 - **Tencent teamai-cli**: secrets in tool arguments leaked into session logs and the judge's transcript ([#1669](https://github.com/Tencent/teamai-cli/pull/1669), [#1671](https://github.com/Tencent/teamai-cli/pull/1671))
@@ -14,7 +33,7 @@ Fixes and tests I've sent to other projects, most found with [Bite](https://gith
 - **midea-lan**: the 8370 message encoder got the frame length wrong when no padding was needed ([#251](https://github.com/wuwentao/midea-lan/pull/251))
 - **mizani**: number labels dropped decimals when values were close together ([#90](https://github.com/has2k1/mizani/pull/90))
 - **pamqp**: tests for three past fixes nothing guarded, including `requeue=False` ([#86](https://github.com/gmr/pamqp/pull/86))
-- **pyclibrary**: nine fixes from my report ([#92](https://github.com/MatthieuDartiailh/pyclibrary/issues/92)), in [#93 to #101](https://github.com/MatthieuDartiailh/pyclibrary/pulls?q=is%3Apr+author%3Aconnabyss)
+- **pyclibrary**: nine fixes from my report ([#92](https://github.com/MatthieuDartiailh/pyclibrary/issues/92)), in [#93 to #101](https://github.com/MatthieuDartiailh/pyclibrary/pulls?q=is%3Apr+author%3Aconnabyss), plus two older issues ([#103](https://github.com/MatthieuDartiailh/pyclibrary/pull/103), [#104](https://github.com/MatthieuDartiailh/pyclibrary/pull/104))
 - **django-tailwind-cli**: the watcher's output ([#232](https://github.com/django-commons/django-tailwind-cli/pull/232)), shipped in 4.8.2
 - **text-to-cad**: the Python 3.11 check missed same-quote nested f-strings ([#708](https://github.com/earthtojake/text-to-cad/pull/708)), shipped in 0.8.2
 
@@ -25,5 +44,4 @@ Fixes and tests I've sent to other projects, most found with [Bite](https://gith
 
 ## Open
 
-- **kin-openapi**: opening a spec with whole-file `$ref`s re-reads the same files over and over ([#1414](https://github.com/getkin/kin-openapi/pull/1414), [#1415](https://github.com/getkin/kin-openapi/pull/1415))
-- [Everything else waiting on review](https://github.com/search?q=author%3Aconnabyss+is%3Apr+is%3Aopen+-user%3Aconnabyss&type=pullrequests)
+- [Everything waiting on review](https://github.com/search?q=author%3Aconnabyss+is%3Apr+is%3Aopen+-user%3Aconnabyss&type=pullrequests)

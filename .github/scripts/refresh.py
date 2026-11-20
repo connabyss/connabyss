@@ -23,16 +23,21 @@ def fetch(url, token=False):
         return r.read().decode("utf-8")
 
 
-def hall_of_fame(text):
-    """Count the Hall of Fame entries in BREAK_IT.md and name the newest."""
-    section = text.split("## Hall of Fame", 1)[1]
+def numbered(text, heading):
+    """The bold names of the numbered entries under one ## heading."""
+    section = text.split(f"## {heading}", 1)[1]
     section = re.split(r"\n## ", section, maxsplit=1)[0]
-    names = re.findall(r"^\d+\. \*\*(.+?)\*\*", section, re.M)
-    if not names:
-        raise ValueError("no Hall of Fame entries found")
-    newest = names[-1].rstrip(".")
-    link = "https://github.com/connabyss/past-forever/blob/main/BREAK_IT.md#hall-of-fame"
-    return f"The [Hall of Fame]({link}) has {len(names)} finds. Newest: **{newest}**."
+    return [n.rstrip(".") for n in re.findall(r"^\d+\. \*\*(.+?)\*\*", section, re.M)]
+
+
+def hall_of_fame(text):
+    """Count the Finds and Breakers in HALL_OF_FAME.md and name the newest breaker."""
+    finds, breakers = numbered(text, "Finds"), numbered(text, "Breakers")
+    if not finds or not breakers:
+        raise ValueError("no Finds or Breakers entries found")
+    link = "https://github.com/connabyss/past-forever/blob/main/HALL_OF_FAME.md"
+    return (f"The [Hall of Fame]({link}) has {len(finds)} finds, new lists found with it, "
+            f"and {len(breakers)} breakers who caught it out. Newest breaker: **{breakers[-1]}**.")
 
 
 def bite_version(data):
@@ -77,7 +82,7 @@ def search_url():
 
 
 PARTS = {
-    "hof": ("README.md", lambda: hall_of_fame(fetch(f"{RAW}/past-forever/main/BREAK_IT.md"))),
+    "hof": ("README.md", lambda: hall_of_fame(fetch(f"{RAW}/past-forever/main/HALL_OF_FAME.md"))),
     "bite-version": ("README.md", lambda: bite_version(fetch("https://pypi.org/pypi/bite-check/json"))),
     "sponsors": ("README.md", lambda: sponsors(fetch(f"{RAW}/bite/main/README.md"))),
     "newest-merged": ("CONTRIBUTIONS.md", lambda: newest_merged(fetch(search_url(), token=True))),

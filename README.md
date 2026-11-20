@@ -173,9 +173,9 @@ Try one:
 6. [A loop that pretends to calm down. Is it lying?](https://connabyss.github.io/past-forever/#wonders/6)
 7. [Graham's number has too many digits to fit in the universe. Can anyone know how it ends?](https://connabyss.github.io/past-forever/#wonders/7)
 
-[Break it](https://github.com/connabyss/past-forever#break-it): find a loop it gets wrong, or one it can't see the end of when you can, and you join the Hall of Fame.
+[Hall of Fame](https://github.com/connabyss/past-forever#hall-of-fame): find something new with it, or find a loop it gets wrong, and your name goes in.
 <!-- auto:hof -->
-The [Hall of Fame](https://github.com/connabyss/past-forever/blob/main/BREAK_IT.md#hall-of-fame) has 8 finds. Newest: **GitHub Copilot, two finds in one night**.
+The [Hall of Fame](https://github.com/connabyss/past-forever/blob/main/HALL_OF_FAME.md) has 3 finds, new lists found with it, and 8 breakers who caught it out. Newest breaker: **GitHub Copilot, two in one night**.
 <!-- /auto:hof -->
 
 ## Trawl

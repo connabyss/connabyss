@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 830" width="640" height="830" role="img" aria-label="Past Forever hunting the loop x = x × x + c for c from 0 to 99. Each number is a coloured square: settles, ring of 2, ring of 3, ring of 6, or goes wild. Brighter red squares are liars that look calm for a while, then go wild. It zooms into the brightest liar five times: 23, 3123, 703123, 95703123, 595703123, and 860595703123, which looks calm for 15 digits before it goes wild.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 830" width="640" height="830" role="img" aria-label="Past Forever hunting the loop x = x × x + c for c from 0 to 99. Each number is a colored square: settles, ring of 2, ring of 3, ring of 6, or goes wild. Brighter red squares are liars that look calm for a while, then go wild. It zooms into the brightest liar five times: 23, 3123, 703123, 95703123, 595703123, and 860595703123, which looks calm for 15 digits before it goes wild.">
 <style>
 .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
 .code{font-size:22px;fill:#a8a4b0} .kw{fill:#f2b01e} .hi{fill:#ece8dc;font-weight:700}

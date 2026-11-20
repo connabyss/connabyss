@@ -1,6 +1,6 @@
 <picture>
   <source media="(max-width: 600px)" srcset="assets/header-machine-phone-v5.jpg">
-  <img src="assets/header-machine.jpg" alt="CH: strange games, and a language where forever ends. Seen from above, on a dark wooden desk sits a worn cream machine labelled Past Forever. Its digit wheels read …42857142857142857143, which is 1 ÷ 7 as a whole number, every wheel locked, and its SETTLES lamp glows. A card coming out of it asks: What is 1 ÷ 7, if the digits run left?" width="100%">
+  <img src="assets/header-machine.jpg" alt="CH: strange games, and a language where forever ends. Seen from above, on a dark wooden desk sits a worn cream machine labeled Past Forever. Its digit wheels read …42857142857142857143, which is 1 ÷ 7 as a whole number, every wheel locked, and its SETTLES lamp glows. A card coming out of it asks: What is 1 ÷ 7, if the digits run left?" width="100%">
 </picture>
 
 **New here?** Start with [Past Forever in your browser](https://connabyss.github.io/past-forever/): pick a question and press Run.
@@ -159,9 +159,9 @@ You draw a door with one finger. It opens. Behind it is another house, cut open 
 
 ## Past Forever
 
-<a href="https://connabyss.github.io/past-forever/"><picture><source media="(max-width: 600px)" srcset="assets/past-forever-hunt-phone.svg"><img src="assets/past-forever-hunt.svg" width="100%" alt="Past Forever hunting x = x × x + c for every c from 0 to 99. Each number is a coloured square by what its loop does. Brighter red squares are liars: they look calm, then go wild. It zooms into the brightest liar five times, down to 860595703123, which looks calm for 15 digits before it goes wild"></picture></a>
+<a href="https://connabyss.github.io/past-forever/"><picture><source media="(max-width: 600px)" srcset="assets/past-forever-hunt-phone.svg"><img src="assets/past-forever-hunt.svg" width="100%" alt="Past Forever hunting x = x × x + c for every c from 0 to 99. Each number is a colored square by what its loop does. Brighter red squares are liars: they look calm, then go wild. It zooms into the brightest liar five times, down to 860595703123, which looks calm for 15 digits before it goes wild"></picture></a>
 
-A small language where infinite loops finish, and the program carries on afterwards. In its world, 1 ÷ 7 = …142857143: a whole number that runs left forever, and times 7 it is exactly 1. The maths is real and old (10-adic numbers, Hensel, 1897). The language is new, as far as I can find.
+A small language where infinite loops finish, and the program carries on afterward. In its world, 1 ÷ 7 = …142857143: a whole number that runs left forever, and times 7 it is exactly 1. The math is real and old (10-adic numbers, Hensel, 1897). The language is new, as far as I can find.
 
 Try one:
 

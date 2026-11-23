@@ -7,11 +7,11 @@ Fixes and tests I've sent to other projects, most found with [Bite](https://gith
 This list updates itself every day.
 
 <!-- auto:newest-merged -->
+- **spantruth**: Print the note for a fixed-upstream finding ([#71](https://github.com/Plexito-de/spantruth/pull/71))
 - **django-modeltranslation**: Clear every column of a translated SET_NULL relation on delete (#823) ([#832](https://github.com/deschler/django-modeltranslation/pull/832))
 - **django-modeltranslation**: Restore the outer mode when auto_populate or fallbacks exits ([#831](https://github.com/deschler/django-modeltranslation/pull/831))
 - **docling-pipelines**: Guard log helpers against missing files/unknown types; escape Drive folder names ([#686](https://github.com/docling-project/docling-pipelines/pull/686))
 - **wardeniq**: Count distinct cases in the editor's "shared by N testcases" note ([#215](https://github.com/adlerqa/wardeniq/pull/215))
-- **claude-seo**: Reject a trailing newline in --release ([#392](https://github.com/AgriciDaniel/claude-seo/pull/392))
 <!-- /auto:newest-merged -->
 
 [Every merged one](https://github.com/search?q=author%3Aconnabyss+is%3Apr+is%3Amerged+-user%3Aconnabyss&type=pullrequests&s=updated&o=desc)

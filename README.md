@@ -196,7 +196,7 @@ python -m bite_check --free
 ```
 
 [Try it](https://github.com/connabyss/bite#try-it-now) · [Discussions](https://github.com/connabyss/bite/discussions) · [Good first issues](https://github.com/connabyss/bite/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) · [Contribute](https://github.com/connabyss/bite/blob/main/CONTRIBUTING.md) · <!-- auto:bite-version -->
-[v1.0.8 on PyPI](https://pypi.org/project/bite-check/)
+[v1.0.9 on PyPI](https://pypi.org/project/bite-check/)
 <!-- /auto:bite-version -->
 
 <!-- auto:sponsors -->

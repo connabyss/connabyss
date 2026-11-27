@@ -1,6 +1,6 @@
 """Refresh the parts of the profile that change on their own.
 
-Each part lives between two markers, like <!-- auto:hof --> and <!-- /auto:hof -->.
+Each part lives between two markers, like <!-- auto:sponsors --> and <!-- /auto:sponsors -->.
 Only the text between them is rewritten. If a source can't be read, that part is left as it was.
 """
 import json
@@ -23,23 +23,6 @@ def fetch(url, token=False):
         return r.read().decode("utf-8")
 
 
-def numbered(text, heading):
-    """The bold names of the numbered entries under one ## heading."""
-    section = text.split(f"## {heading}", 1)[1]
-    section = re.split(r"\n## ", section, maxsplit=1)[0]
-    return [n.rstrip(".") for n in re.findall(r"^\d+\. \*\*(.+?)\*\*", section, re.M)]
-
-
-def hall_of_fame(text):
-    """Count the Finds and Breakers in HALL_OF_FAME.md and name the newest breaker."""
-    finds, breakers = numbered(text, "Finds"), numbered(text, "Breakers")
-    if not finds or not breakers:
-        raise ValueError("no Finds or Breakers entries found")
-    link = "https://github.com/connabyss/past-forever/blob/main/HALL_OF_FAME.md"
-    return (f"The [Hall of Fame]({link}) has {len(finds)} finds, new lists found with it, "
-            f"and {len(breakers)} breakers who caught it out. Newest breaker: **{breakers[-1]}**.")
-
-
 def bite_version(data):
     v = json.loads(data)["info"]["version"]
     return f"[v{v} on PyPI](https://pypi.org/project/bite-check/)"
@@ -53,7 +36,7 @@ def sponsors(text):
     names = m.group(1).strip()
     link = "https://github.com/sponsors/connabyss"
     if not names or "none yet" in names.lower():
-        return f"Bite is free. [Sponsor it]({link}) for $10 a month and your name goes here."
+        return ""  # nothing to thank yet; the Bite section already links Sponsor
     return f"Bite is kept going by {names.rstrip('.')}. Thank you. [Sponsor it]({link})."
 
 
@@ -82,7 +65,6 @@ def search_url():
 
 
 PARTS = {
-    "hof": ("README.md", lambda: hall_of_fame(fetch(f"{RAW}/past-forever/main/HALL_OF_FAME.md"))),
     "bite-version": ("README.md", lambda: bite_version(fetch("https://pypi.org/pypi/bite-check/json"))),
     "sponsors": ("README.md", lambda: sponsors(fetch(f"{RAW}/bite/main/README.md"))),
     "newest-merged": ("CONTRIBUTIONS.md", lambda: newest_merged(fetch(search_url(), token=True))),
